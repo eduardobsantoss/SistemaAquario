@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AquárioApp - Monitoramento e Controle do Seu Aquário</title>
+  <meta name="description"
+    content="Sistema inteligente de monitoramento e controle remoto para aquários automatizados. Acompanhe temperatura, pH e controle dispositivos em tempo real." />
+  <meta name="author" content="AquárioApp" />
+  <meta name="theme-color" content="#0891b2" />
+
+  <meta property="og:title" content="AquárioApp - Monitoramento Inteligente de Aquários" />
+  <meta property="og:description"
+    content="Monitore e controle seu aquário de qualquer lugar. Temperatura, pH, alimentador automático e muito mais." />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <script>
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

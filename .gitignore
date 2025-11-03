@@ -1,0 +1,16 @@
+# Node
+node_modules
+dist
+.env
+.env.*
+*.local
+
+# Build / temp
+*.log
+*.tmp
+*.lock
+
+# Arduino / PlatformIO
+.pio
+build
+.vscode/
