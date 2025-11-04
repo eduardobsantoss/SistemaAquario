@@ -12,6 +12,12 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
+if (!firebaseConfig.apiKey) {
+  console.error("ENV faltando: VITE_FIREBASE_API_KEY");
+} else {
+  console.log("Firebase env OK. apiKey len:", String(firebaseConfig.apiKey).length);
+}
+
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const database = getDatabase(app);
