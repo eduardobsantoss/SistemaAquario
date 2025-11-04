@@ -1,16 +1,26 @@
-# Node
+# Node/Front
 node_modules
 dist
+*.local
 .env
 .env.*
-*.local
 
-# Build / temp
-*.log
-*.tmp
-*.lock
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Arduino / PlatformIO
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Arduino/PlatformIO
 .pio
 build
-.vscode/
+secrets.h
+
+# Others
+*.tmp
