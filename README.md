@@ -138,8 +138,11 @@ O sistema está disponível publicamente em:
 
 ## 🧠 Autor
 👤 [Eduardo Barbosa dos Santos](https://www.linkedin.com/in/eduardobarbosadossantos)
+
 🎓 Estudante de Engenharia de Computação – IFTM
+
 💼 Atuação em automação, desenvolvimento de software e design de interfaces.
+
 📧 [eduardo.santos@estudante.iftm.edu.br](maito:eduardo.santos@estudante.iftm.edu.br)
 
 ---
