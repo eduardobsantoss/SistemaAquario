@@ -148,5 +148,5 @@ O sistema está disponível publicamente em:
 ---
 
 ## 🏁 Licença
-Este projeto é de uso acadêmico e livre para fins educacionais.
+Este projeto está licenciado sob a Apache License 2.0. Veja o arquivo [LICENSE](LICENSE) para detalhes.
 Sinta-se à vontade para estudar, modificar, expandir e contribuir.
